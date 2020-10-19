@@ -1,0 +1,194 @@
+:root{
+	--btn_danger_u591:#26a74a;
+	--btn_danger_u591_disabled:#d9534f;
+	--btn_danger_u591_mouseOver:#141340;
+	--btn_danger_u591_mouseDown:#9b283a;
+	--u580:#cccccc;
+}
+#chi-tiet-san-pham-main .banner{
+			margin-left: -15px;
+			margin-right: -15px;
+			position: relative;
+			text-align: center;
+		}
+		#chi-tiet-san-pham-main .banner picture img{	
+			width: 100%;
+			position: relative;
+		}
+		#chi-tiet-san-pham-main .banner section {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			color: var(--light);
+		}
+		#chi-tiet-san-pham-main .product .product-img img{
+			border: 1px solid;
+			width: 100%;
+		} 
+		#chi-tiet-san-pham-main .product .product-content >table{
+			width: 100%;
+			line-height: 2em;
+		}
+		#chi-tiet-san-pham-main .product .product-content >table caption{
+			caption-side: top;
+			font-weight: bold;
+			color: var(--btn_danger_u591);
+		}
+		#chi-tiet-san-pham-main .product .product-content >table tr{
+			border-bottom: 1px solid var(--u580);
+			height: 2.5em;
+		}
+		#chi-tiet-san-pham-main .product .product-content >table tr:first-child{
+			font-size: 0.8em;
+		}
+		#chi-tiet-san-pham-main .product .product-content >table th{
+			width: 6.5em;
+			word-break: keep-all;
+		}		
+		#chi-tiet-san-pham-main .product .product-content >table td.active{
+			color: red;
+		}
+		#chi-tiet-san-pham-main .product .product-content .call-share button.call{
+			background: var(--btn_danger_u591);
+			outline: none;
+			border: none;
+			color: var(--light);
+			padding: 0.5em;
+			border-radius: 5px;
+		}
+		#chi-tiet-san-pham-main .product .product-content .call-share button.call:hover{
+			background: var(--btn_danger_u591_mouseOver);
+		}
+		#chi-tiet-san-pham-main .product .product-content .call-share button.call:active{
+			background: var(--btn_danger_u591_mouseDown);
+		}
+		#chi-tiet-san-pham-main .product .product-content .call-share table.share {
+			width: 100%;
+		}
+		#chi-tiet-san-pham-main .product .product-content .call-share table.share td{
+			justify-content: space-around;
+		}	
+		#chi-tiet-san-pham-main .product .product-content .call-share table.share img{
+			width: 2em;
+			height: 2em;
+			margin-left: 0.5em;
+		}
+		#chi-tiet-san-pham-main .product-description{
+			background: var(--light);
+			margin:0 -15px;
+		}
+		#chi-tiet-san-pham-main .product-description section h3{
+			border-left: 8px solid var(--btn_danger_u591);
+			padding-left: 10px;
+			margin-bottom: 1em;
+		}
+		#chi-tiet-san-pham-main .product-description section.decription table{
+			width: 100%;
+		}
+		#chi-tiet-san-pham-main .product-description section.decription table tr{
+			border-bottom: 1px solid var(--u580);
+			height: 2em;
+		}
+		#chi-tiet-san-pham-main .product-description section.decription table tr th{
+			width: 9rem;
+		}
+		#chi-tiet-san-pham-main .related-products h3{
+			border-bottom: 5px solid var(--btn_danger_u591);
+			width: fit-content;
+			padding-bottom: 10px;
+			margin-bottom: 1em;
+		}
+		#chi-tiet-san-pham-main .related-products section{
+			padding: 0.5em;
+			text-align: center;
+		}
+		#chi-tiet-san-pham-main .related-products section img{
+			width: 100%;
+			padding: 20px 40px;
+			border: 1px solid var(--u580);
+		}
+		#chi-tiet-san-pham-main .related-products section h6{
+			margin:1em;
+			height: 2.5em;
+		}
+		#chi-tiet-san-pham-main .related-products section button{
+			border: 1px solid var(--btn_danger_u591);
+			border-radius: 5px;
+			padding: 0.5em 3em;
+			background: inherit;
+			outline: none;
+		}
+		#chi-tiet-san-pham-main .related-products section button:hover{
+			background: var(--btn_danger_u591);
+			color: white;
+		}
+		#chi-tiet-san-pham-main .related-products section button:active{
+			background-color: var(--btn_danger_u591_mouseDown);
+			color: white;
+		}
+		#chi-tiet-san-pham-main .related-products .owl-nav .owl-prev,#chi-tiet-san-pham-main .related-products .owl-nav .owl-next{
+			font-size: 6em;
+			background: inherit;
+			outline: var(--btn_danger_u591_mouseDown);
+			margin: -50px 10px 20px 10px	; 
+		}
+		#chi-tiet-san-pham-main .related-products .owl-nav .owl-prev:hover,#chi-tiet-san-pham-main .related-products .owl-nav .owl-next:hover{
+			color: var(--btn_danger_u591);
+		}
+		#chi-tiet-san-pham-main .related-products .owl-nav .owl-prev:active,#chi-tiet-san-pham-main .related-products .owl-nav .owl-next:active{
+			color: var(--btn_danger_u591_mouseOver);
+		}
+		#chi-tiet-san-pham-main .related-products .owl-nav .owl-prev:focus,#chi-tiet-san-pham-main .related-products .owl-nav .owl-next:focus{
+			color: var(--btn_danger_u591);
+		}
+@media only screen and  (max-width: 768px){
+	body{
+		font-size: 12px;
+	}
+	h6{
+		font-size: 13px;
+	}
+	h5
+	{
+		font-size: 14px;
+	}
+	h4{
+		font-size: 15px;
+	}
+	h3{
+		font-size: 16px;
+	}
+	h2{
+		font-size: 17px;
+	}
+	h1{
+		font-size: 18px;
+	}
+
+}
+@media only screen and  (max-width: 576px){
+	body{
+		font-size: 10px;
+	}
+	h6{
+		font-size: 11px;
+	}
+	h5
+	{
+		font-size: 12px;
+	}
+	h4{
+		font-size: 13px;
+	}
+	h3{
+		font-size: 14px;
+	}
+	h2{
+		font-size: 15px;
+	}
+	h1{
+		font-size: 16px;
+	}
+
+}
