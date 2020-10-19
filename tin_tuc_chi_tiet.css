@@ -1,0 +1,193 @@
+:root{
+	--btn_danger_u591:#26a74a;
+	--btn_danger_u591_disabled:#d9534f;
+	--btn_danger_u591_mouseOver:#141340;
+	--btn_danger_u591_mouseDown:#9b283a;
+	--u580:#cccccc;
+}
+.paragraph-limited{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp:3;
+	-webkit-box-orient:vertical;
+}
+#tin-tuc-chi-tiet-main .banner{
+	margin-left: -15px;
+	margin-right: -15px;
+	position: relative;
+	text-align: center;
+}
+#tin-tuc-chi-tiet-main .banner picture img{	
+	width: 100%;
+	position: relative;
+}
+#tin-tuc-chi-tiet-main .banner section {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.5);
+	width: 100%;
+	height: 100%;	
+}
+#tin-tuc-chi-tiet-main .banner section div.content{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+#tin-tuc-chi-tiet-main .new  *{
+	margin-top: 10px;
+}
+#tin-tuc-chi-tiet-main .new h3{
+	position: relative;
+	left: 50%;
+	transform:translate(-50%);
+	border-bottom: 3px solid var(--btn_danger_u591);
+	width: fit-content;
+	margin-bottom: 30px;
+}
+#tin-tuc-chi-tiet-main .new img{
+	max-width: 100%;
+}
+#tin-tuc-chi-tiet-main .new table img{
+	max-width: 30px;
+	margin: 5px;
+}
+#tin-tuc-chi-tiet-main .new .Table-of-contents{
+	color: cornflowerblue;
+	border:1px solid;
+	padding: 1em;
+	width: fit-content;
+}
+#tin-tuc-chi-tiet-main .new table img:first-child{
+margin-left: 0;
+}
+#tin-tuc-chi-tiet-main .related-news *{
+	margin-top: 5px;
+}
+#tin-tuc-chi-tiet-main .related-news img{
+max-height: 10vw;
+}
+#tin-tuc-chi-tiet-main .related-news .item ul{
+	list-style-type: none;
+	padding-left: 10px;
+}
+#tin-tuc-chi-tiet-main .related-news .item ul li{
+	display: inline-block;
+	line-height: 20px;
+}
+#tin-tuc-chi-tiet-main .related-news .item ul img{
+	height: 100%;
+}
+#tin-tuc-chi-tiet-main .related-news .item p{
+		overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp:3;
+	-webkit-box-orient:vertical;
+}
+
+#tin-tuc-chi-tiet-main .related-news .owl-dot{
+	outline: none;
+}
+#tin-tuc-chi-tiet-main .related-products h3{
+	border-bottom: 5px solid var(--btn_danger_u591);
+	width: fit-content;
+	padding-bottom: 10px;
+	margin-bottom: 1em;
+}
+#tin-tuc-chi-tiet-main .related-products section{
+	padding: 0.5em;
+	text-align: center;
+}
+#tin-tuc-chi-tiet-main .related-products section img{
+	width: 100%;
+	padding: 20px 40px;
+	border: 1px solid var(--u580);
+}
+#tin-tuc-chi-tiet-main .related-products section h6{
+	margin:1em;
+	height: 2.5em;	
+}
+#tin-tuc-chi-tiet-main .related-products section button{
+	border: 1px solid var(--btn_danger_u591);
+	border-radius: 5px;
+	padding: 0.5em 3em;
+	background: inherit;
+	outline: none;
+}
+#tin-tuc-chi-tiet-main .related-products section button:hover{
+	background: var(--btn_danger_u591);
+	color: white;
+}
+#tin-tuc-chi-tiet-main .related-products section button:active{
+	background-color: var(--btn_danger_u591_mouseDown);
+	color: white;
+}
+#tin-tuc-chi-tiet-main .related-products .owl-nav .owl-prev,#tin-tuc-chi-tiet-main .related-products .owl-nav .owl-next{
+	font-size: 6em;
+	background: inherit;
+	outline: var(--btn_danger_u591_mouseDown);
+	margin: -50px 10px 20px 10px	; 
+}
+#tin-tuc-chi-tiet-main .related-products .owl-nav .owl-prev:hover,#tin-tuc-chi-tiet-main .related-products .owl-nav .owl-next:hover{
+	color: var(--btn_danger_u591);
+}
+#tin-tuc-chi-tiet-main .related-products .owl-nav .owl-prev:active,#tin-tuc-chi-tiet-main .related-products .owl-nav .owl-next:active{
+	color: var(--btn_danger_u591_mouseOver);
+}
+#tin-tuc-chi-tiet-main .related-products .owl-nav .owl-prev:focus,#tin-tuc-chi-tiet-main .related-products .owl-nav .owl-next:focus{
+	color: var(--btn_danger_u591);
+}
+@media only screen and  (max-width: 768px){
+	body{
+		font-size: 12px;
+	}
+	h6{
+		font-size: 13px;
+	}
+	h5
+	{
+		font-size: 14px;
+	}
+	h4{
+		font-size: 15px;
+	}
+	h3{
+		font-size: 16px;
+	}
+	h2{
+		font-size: 17px;
+	}
+	h1{
+		font-size: 18px;
+	}
+
+}
+@media only screen and  (max-width: 576px){
+	body{
+		font-size: 10px;
+	}
+	h6{
+		font-size: 11px;
+	}
+	h5
+	{
+		font-size: 12px;
+	}
+	h4{
+		font-size: 13px;
+	}
+	h3{
+		font-size: 14px;
+	}
+	h2{
+		font-size: 15px;
+	}
+	h1{
+		font-size: 16px;
+	}
+
+}
