@@ -164,20 +164,34 @@
 	background-color: var(--btn_danger_u591_mouseDown);
 	color: white;
 }
+#tin-tuc-main .related-products .owl-nav{
+	position: absolute;
+	top:25%;
+	width: 100%;
+	justify-content: space-between;
+}
 #tin-tuc-main .related-products .owl-nav .owl-prev,#tin-tuc-main .related-products .owl-nav .owl-next{
-	font-size: 6em;
+	font-size: 3em;
 	background: inherit;
 	outline: var(--btn_danger_u591_mouseDown);
-	margin: -50px 10px 20px 10px	; 
+	position: relative;
+		color: var(--btn_danger_u591);
+}
+#tin-tuc-main .related-products .owl-nav button.owl-prev{
+	position: absolute;
+	left: 10px;
+}
+#tin-tuc-main .related-products .owl-nav .owl-next{
+	position: absolute;
+	right: 10px;
 }
 #tin-tuc-main .related-products .owl-nav .owl-prev:hover,#tin-tuc-main .related-products .owl-nav .owl-next:hover{
-	color: var(--btn_danger_u591);
-}
-#tin-tuc-main .related-products .owl-nav .owl-prev:active,#tin-tuc-main .related-products .owl-nav .owl-next:active{
 	color: var(--btn_danger_u591_mouseOver);
 }
+#tin-tuc-main .related-products .owl-nav .owl-prev:active,#tin-tuc-main .related-products .owl-nav .owl-next:active{
+	color: var(--btn_danger_u591_mouseDown);
+}
 #tin-tuc-main .related-products .owl-nav .owl-prev:focus,#tin-tuc-main .related-products .owl-nav .owl-next:focus{
-	color: var(--btn_danger_u591);
 }
 @media only screen and  (max-width: 768px){
 }
