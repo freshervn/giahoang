@@ -12,6 +12,9 @@
 	-webkit-line-clamp:3;
 	-webkit-box-orient:vertical;
 }
+#tin-tuc-main{
+	font-family: 'Roboto';
+}
 #tin-tuc-main .banner{
 	margin-left: -15px;
 	margin-right: -15px;
@@ -37,6 +40,14 @@
 	transform: translate(-50%,-50%);
 	color: white;
 }
+@media only screen and (max-width:576px){
+	#tin-tuc-main .banner section h1{
+		font-size: 5vw;
+	}
+	#tin-tuc-main .banner section h5{
+		font-size: 4vw;
+	}	
+}
 #tin-tuc-main .question table{
 	width: 100%;
 }
@@ -53,7 +64,7 @@
 	color: var(--btn_danger_u591_mouseOver)
 }
 #tin-tuc-main .news h3{
-	border-bottom: 4px solid var(--btn_danger_u591);
+	border-bottom: 3px solid var(--btn_danger_u591);
 	width: fit-content;
 	position: relative;
 	left: 50%;
@@ -93,22 +104,26 @@
 }
 #tin-tuc-main .news section button:hover{
 	background: var(--btn_danger_u591_mouseOver);
+	color: white;
+	border:none;
 }
 #tin-tuc-main .news section button:active{
 	background: var(--btn_danger_u591_mouseDown);
+	color: white;
+	border:none;
 }
 #tin-tuc-main .news .next-pages table{
 	margin: 50px auto auto auto;
 }
 #tin-tuc-main .news .next-pages td{
 	display: inline-block;
-	width: 50px;
-	height: 50px;
+	width: 3em;
+	height: 3em;
 	color: var(--btn_danger_u591);
 	border:1px solid var(--u580);
 	border-right: none;
 	margin:0px;
-	line-height: 45px;
+	line-height: 3em;
 	text-align: center;
 	cursor: pointer;
 }
@@ -116,7 +131,7 @@
 	border-right:1px solid var(--u580);
 }
 #tin-tuc-main .related-products h3{
-	border-bottom: 5px solid var(--btn_danger_u591);
+	border-bottom: 3px solid var(--btn_danger_u591);
 	width: fit-content;
 	padding-bottom: 10px;
 	margin-bottom: 1em;
@@ -165,52 +180,6 @@
 	color: var(--btn_danger_u591);
 }
 @media only screen and  (max-width: 768px){
-	body{
-		font-size: 12px;
-	}
-	h6{
-		font-size: 13px;
-	}
-	h5
-	{
-		font-size: 14px;
-	}
-	h4{
-		font-size: 15px;
-	}
-	h3{
-		font-size: 16px;
-	}
-	h2{
-		font-size: 17px;
-	}
-	h1{
-		font-size: 18px;
-	}
-
 }
 @media only screen and  (max-width: 576px){
-	body{
-		font-size: 10px;
-	}
-	h6{
-		font-size: 11px;
-	}
-	h5
-	{
-		font-size: 12px;
-	}
-	h4{
-		font-size: 13px;
-	}
-	h3{
-		font-size: 14px;
-	}
-	h2{
-		font-size: 15px;
-	}
-	h1{
-		font-size: 16px;
-	}
-
 }
