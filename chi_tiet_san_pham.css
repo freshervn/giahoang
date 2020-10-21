@@ -109,7 +109,7 @@
 	width: 9rem;
 }
 #chi-tiet-san-pham-main .related-products h3{
-	border-bottom: 5px solid var(--btn_danger_u591);
+	border-bottom: 3px solid var(--btn_danger_u591);
 	width: fit-content;
 	padding-bottom: 10px;
 	margin-bottom: 1em;
@@ -142,20 +142,34 @@
 	background-color: var(--btn_danger_u591_mouseDown);
 	color: white;
 }
+#chi-tiet-san-pham-main .related-products .owl-nav{
+	position: absolute;
+	top:25%;
+	width: 100%;
+	justify-content: space-between;
+}
 #chi-tiet-san-pham-main .related-products .owl-nav .owl-prev,#chi-tiet-san-pham-main .related-products .owl-nav .owl-next{
-	font-size: 6em;
+	font-size: 3em;
 	background: inherit;
 	outline: var(--btn_danger_u591_mouseDown);
-	margin: -50px 10px 20px 10px	; 
+	position: relative;
+		color: var(--btn_danger_u591);
+}
+#chi-tiet-san-pham-main .related-products .owl-nav button.owl-prev{
+	position: absolute;
+	left: 10px;
+}
+#chi-tiet-san-pham-main .related-products .owl-nav .owl-next{
+	position: absolute;
+	right: 10px;
 }
 #chi-tiet-san-pham-main .related-products .owl-nav .owl-prev:hover,#chi-tiet-san-pham-main .related-products .owl-nav .owl-next:hover{
-	color: var(--btn_danger_u591);
-}
-#chi-tiet-san-pham-main .related-products .owl-nav .owl-prev:active,#chi-tiet-san-pham-main .related-products .owl-nav .owl-next:active{
 	color: var(--btn_danger_u591_mouseOver);
 }
+#chi-tiet-san-pham-main .related-products .owl-nav .owl-prev:active,#chi-tiet-san-pham-main .related-products .owl-nav .owl-next:active{
+	color: var(--btn_danger_u591_mouseDown);
+}
 #chi-tiet-san-pham-main .related-products .owl-nav .owl-prev:focus,#chi-tiet-san-pham-main .related-products .owl-nav .owl-next:focus{
-	color: var(--btn_danger_u591);
 }
 @media only screen and  (max-width: 768px){
 }
