@@ -35,9 +35,9 @@
 }
 #tin-tuc-main .banner section div.content{
 	position: absolute;
-	top:50%;
+	bottom: 10%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%);
 	color: white;
 }
 @media only screen and (max-width:576px){
